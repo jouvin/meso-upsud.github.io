@@ -8,3 +8,6 @@ _site/
 
 # Ruby Gems
 Gemfile.lock
+
+#MacStuff
+.DS_Store

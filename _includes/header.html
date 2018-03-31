@@ -1,4 +1,4 @@
-<nav class="light-blue lighten-1" role="navigation">
+<nav class="light-blue darken-4" role="navigation">
 
   <div class="nav-wrapper container">
     <a href="http://meso-upsud.github.io"><img class="logo-image" src="/images/upsud-logo-small.jpg" alt="UPSUD Logo"></a>
@@ -7,9 +7,9 @@
   
     <ul class="right hide-on-med-and-down">
       {% if page.url == "/" %}
-        <li class="active"><a href="{{ "/" | relative_url }}">Home </a></li>
+        <li class="active"><a href="{{ "/" | relative_url }}">Actualités </a></li>
       {% else %}
-        <li><a href="{{ "/" | relative_url }}">Home </a></li>
+        <li><a href="{{ "/" | relative_url }}">Actualités </a></li>
       {% endif %}
       {% if page_paths %}
         {% for path in page_paths %}
@@ -20,7 +20,7 @@
               <li>
                 <a class="dropdown-button" data-beloworigin="true" data-alignment="right" data-activates="{{ my_page_collection }}-menu">{{ my_page.menu }}<i class="material-icons right">arrow_drop_down</i></a>
                 <ul id="{{ my_page_collection }}-menu" class="dropdown-content">
-                  <li><a href="{{ my_page.url | relative_url }}">WG Activities</a></li>
+                  <li><a href="{{ my_page.url | relative_url }}">Organisation</a></li>
                   <li class="divider"></li>
                   {% for collection_page in site.[my_page_collection] %}
                     {% if collection_page.menu %}
@@ -38,14 +38,14 @@
       <li>
         <a class="dropdown-button" data-beloworigin="true" data-alignment="right" data-activates="about-menu">About<i class="material-icons right">arrow_drop_down</i></a>
         <ul id="about-menu" class="dropdown-content">
-          <li><a href="/about/how_to_contribute.html">Website HowTo</a></li>
+          <li><a href="/about/Presentation.html">Présentation</a></li>
         </ul>
       </li>
     </ul>
   
     {% comment %}Add class "fixed" to test on a computer/large screen{% endcomment %}
     <ul id="nav-mobile" class="side-nav">
-      <li><a href="{{ "/" | relative_url }}">Home</a></li>
+      <li><a href="{{ "/" | relative_url }}">Actualités</a></li>
       {% if page_paths %}
         {% for path in page_paths %}
           {% assign my_page = site.pages | where: "path", path | first %}
@@ -58,7 +58,7 @@
                     <a class="collapsible-header">{{ my_page.menu }}<i class="material-icons right">arrow_drop_down</i></a>
                     <div class="collapsible-body">
                       <ul>
-                        <li><a href="{{ my_page.url | relative_url }}">WG Activities</a></li>
+                        <li><a href="{{ my_page.url | relative_url }}">Organisation</a></li>
                         <li class="divider"></li>
                         {% for collection_page in site.[my_page_collection] %}
                           {% if collection_page.menu %}
@@ -82,7 +82,7 @@
             <a class="collapsible-header">About<i class="material-icons right">arrow_drop_down</i></a>
             <div class="collapsible-body">
               <ul>
-                <li><a href="/about/how_to_contribute.html">Website HowTo</a></li>
+                <li><a href="/about/Presentation.html">Présentation</a></li>
               </ul>
             </div>
           </li>

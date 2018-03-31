@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DataCenter@UPSud
-email: jouvin@lal.in2p3.fr
+email: info-scientifique.di@u-psud.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Site Web du Mésocentre de l'Université Paris Sud
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -40,3 +40,16 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Collections
+collections:
+  about:
+    output: true
+    permalink: /about/:title.html
+  10services:
+    output: true
+    permalink: /services/:title.html
+#benchmarking:
+#   output: true
+#   permalink: /benchmarking/:title.html
+

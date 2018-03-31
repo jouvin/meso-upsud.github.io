@@ -44,10 +44,10 @@ sass:
 
 # Collections
 collections:
+  le_projet:
+    output: true
+    permalink: /projet/:name.html
   services:
     output: true
-    permalink: /services/:title.html
-#benchmarking:
-#   output: true
-#   permalink: /benchmarking/:title.html
+    permalink: /:collection/:name.html
 

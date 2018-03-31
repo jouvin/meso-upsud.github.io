@@ -1,7 +1,6 @@
 ---
 layout: page
 title:   Accès ScienceFS
-permalink: /AccesSFS/
 ---
 
 ATTENTION : Cette page est en cours de révision, certaines informations peuvent être périmées. En cas de difficulté, prendre contact.

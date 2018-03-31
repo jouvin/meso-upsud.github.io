@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  Cloud
-permalink: /Cloud/
 menu: Cloud
 ---
 

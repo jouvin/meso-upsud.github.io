@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Hébergement
-permalink: /Hebergement/
 menu: Hébergement
 ---
 

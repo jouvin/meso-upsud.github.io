@@ -1,9 +1,10 @@
 ---
 layout: page
 title:  Spark
-permalink: /Spark/
 menu: Spark
 ---
+
+{% include internal_references.md %}
 
 ## PRESENTATION
 
@@ -46,5 +47,5 @@ de calculs en R ; réalisation d'un cluster Spark à coût très réduit pour de
 En fonction des besoins, elle peut se faire :
 * sur le cluster Spark existant
 * par déploiement d'un cluster dédié.
-Il faut d'abord [obtenir un compte Cloud](/Cloud), puis prendre contact pour évaluer la solution la mieux adaptée. 
+Il faut d'abord [obtenir un compte Cloud][ServCloud], puis prendre contact pour évaluer la solution la mieux adaptée.
 

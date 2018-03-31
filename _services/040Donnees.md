@@ -1,9 +1,10 @@
 ---
 layout: page
 title:  Données   
-permalink: /Donnees/
 menu: Données
 ---
+
+{% include internal_references.md %}
 
 ## STOCKAGE
 ScienceFS est un stockage unifié simplifiant l'utilisation des données scientifiques au travers des diverses
@@ -23,4 +24,4 @@ Pour une utilisation raisonnée de cette ressource, l'espace maximum par
 utilisateur est 100Go. Si vous avez besoin d'un espace plus important, 
 veuillez faire une demande par [ticket](http://sos.di.u-psud.fr/){:target="_support_di"} rubrique Informatique Scientifique.
 
-Les moyens pour accéder à votre [espace de stockage](/AccesSFS/) dépendent du type d'accès.
+Les moyens pour accéder à votre [espace de stockage][AccesSFS] dépendent du type d'accès.

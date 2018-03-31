@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  Logiciels
-permalink: /Logiciels/
 menu: Logiciels
 ---
 

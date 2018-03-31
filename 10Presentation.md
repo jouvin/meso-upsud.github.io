@@ -1,6 +1,8 @@
 ---
 title: Présentation
 layout: page
+permalink: /projet/
+menu: Le Projet
 ---
 
 Le mesocentre DataCenter@UPSud

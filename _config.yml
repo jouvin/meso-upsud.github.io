@@ -26,6 +26,7 @@ github_username: meso-upsud
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 sass:
   style: compress
 

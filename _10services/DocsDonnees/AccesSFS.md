@@ -14,7 +14,7 @@ yum -y install fuse-sshfs
 
 mkdir /mesdocuments
 
-sshfs -o Ciphers=arcfour256 <prenom.nom>@sciencefs.di.u-psud.fr:/sciencefs/homes/<prenom.nom> /mesdocuments
+`sshfs -o Ciphers=arcfour256 <prenom.nom>@sciencefs.di.u-psud.fr:/sciencefs/homes/<prenom.nom> /mesdocuments`
 
 Pour une machine virtuelle utilisant Ubuntu, remplacez yum -y install fuse-sshfs par apt-get install sshfs
 
@@ -22,7 +22,7 @@ L'option -o Ciphers=arcfour256 permet d'augmenter les performances en diminuant 
 
 ## ACCÈS DEPUIS LE GROUPE DE MACHINES PLUTON
 Depuis les machines du groupe Pluton, l'accès est immédiat et transparent.
-Votre "home directory" (répertoire par défaut) est de la forme /sciencefs/homes/<prenom.nom>
+Votre "home directory" (répertoire par défaut) est de la forme `/sciencefs/homes/<prenom.nom>`
 
 Pour des raisons historiques, un chemin de la forme /netapp_nix/homes/<login court Adonis> est également maintenu.
 
@@ -34,7 +34,7 @@ Il est également possible de vous connecter via SFTP (FTP par SSH) à l'aide d'
 ## ACCÈS DEPUIS VOTRE MACHINE DE BUREAU MACOS
 
 Sous macOSX, pour se connecter à l'espace de stockage, dans un premier temps, dans Safari allez à cette adresse: https://sciencefs.di.u-psud.fr/mesdocuments/
-Identifiez-vous avec vos login (prenom.nom) et mot de passe Adonis.
+Identifiez-vous avec vos login `prenom.nom` et mot de passe Adonis.
 A partir du Finder, allez dans le menu "Aller -> Se connecter au serveur" et entrez : https://sciencefs.di.u-psud.fr/mesdocuments/
 Cliquez sur le signe (+) pour ajouter cette adresse de façon pérenne à la liste des serveurs.
 Une boîte de dialogue vous demande l'autorisation d'utiliser le mot de passe que vous aurez précédemment indiqué avec Safari. Cliquez sur "Toujours autoriser". L'espace de stockage apparait comme un dossier sur le bureau.

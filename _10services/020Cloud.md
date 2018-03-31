@@ -31,7 +31,7 @@ Pour les dernières informations, et toute la documentation, le [site du cloud](
  
 ## SUPPORT
 
-Le [service de support](https://cloud-support.lal.in2p3.fr) est accessible 
+Le [service de support](https://cloud-support.lal.in2p3.fr){:data-proofer-ignore=""} est accessible
 **avec un compte Cloud**. 
 Il permet de répondre aux questions techniques, mais aussi de faciliter les premiers pas. N'hésitez pas à prendre contact, même si vous êtes un débutant complet.
 

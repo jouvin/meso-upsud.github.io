@@ -44,10 +44,7 @@ sass:
 
 # Collections
 collections:
-  about:
-    output: true
-    permalink: /about/:title.html
-  10services:
+  30services:
     output: true
     permalink: /services/:title.html
 #benchmarking:

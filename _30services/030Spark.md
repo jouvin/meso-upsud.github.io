@@ -7,8 +7,8 @@ menu: Spark
 
 ## PRESENTATION
 
-[Spark](http://spark.apache.org) est un système généraliste de parallélisation de données et de calculs.
- Héritier du paradigme de programmation MapReduce exploité dans [Hadoop](http://hadoop.apache.org), il est conçu pour être capable de traiter efficacement de très grands volumes de données.
+[Spark](http://spark.apache.org){:target="_spark_doc"} est un système généraliste de parallélisation de données et de calculs.
+ Héritier du paradigme de programmation MapReduce exploité dans [Hadoop](http://hadoop.apache.org){:target="_hadoop_doc"}, il est conçu pour être capable de traiter efficacement de très grands volumes de données.
 A la différence de MapReduce, le  modèle d’exécution 
 de Spark conserve les jeux de données en mémoire (distribuée), ce qui améliore massivement les performances des workflows. 
 Les cas d’usage sont en conséquence beaucoup plus larges que ceux de MapReduce.
@@ -29,9 +29,9 @@ utilisées par tous.
 Plusieurs projets de R&D sont menés sur le cluster Spark.
 
 * Expérience d’astrophysique LSST :
-connecteur Spark-[FITS](https://fits.gsfc.nasa.gov) en Scala; analyse de 
-[données orientées 2D ou 3D](http://geospark.datasyslab.org/) (GeoSpark, Spark3D)
-; [connexion](https://www.mongodb.com/products/spark-connector) entre Spark et 
+connecteur Spark-[FITS](https://fits.gsfc.nasa.gov){:target="_fits_standard"} en Scala; analyse de
+[données orientées 2D ou 3D](http://geospark.datasyslab.org/){:target="_geospark"} (GeoSpark, Spark3D)
+; [connexion](https://www.mongodb.com/products/spark-connector){:target="_mongo_spark_connector"} entre Spark et
 MongoDb
 
 * Génomique : expérimentation sur l'analyse du génome complet.

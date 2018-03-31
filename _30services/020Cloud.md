@@ -18,20 +18,20 @@ et administrées par le Laboratoire de l'Accélérateur Linéaire (LAL).
 
 Dans tous les cas, vous devez obtenir un compte : 
 
-* [Utilisateurs Paris Sud](http://www.informatique-scientifique.u-psud.fr/form/index)
-* [Autres utilisateurs](https://openstack.lal.in2p3.fr/2016/02/16/registration/) 
+* [Utilisateurs Paris Sud](http://www.informatique-scientifique.u-psud.fr/form/index){:target="_user_registration"}
+* [Autres utilisateurs](https://openstack.lal.in2p3.fr/2016/02/16/registration/){:target="_user_registration"}
 
 ## DOCUMENTATION
 
-Un [tutoriel](https://openstack.lal.in2p3.fr/tutoriel/tutorial/) premier pas.
+Un [tutoriel](https://openstack.lal.in2p3.fr/tutoriel/tutorial/){:target="_lal_cloud_doc"} premier pas.
 
-Plus d'information sur les [services offerts](https://openstack.lal.in2p3.fr/architecture-systeme/services/)
+Plus d'information sur les [services offerts](https://openstack.lal.in2p3.fr/architecture-systeme/services/){:target="_lal_cloud_doc"}
  
-Pour les dernières informations, et toute la documentation, le [site du cloud](https://openstack.lal.in2p3.fr/)
+Pour les dernières informations, et toute la documentation, le [site du cloud](https://openstack.lal.in2p3.fr/){:target="_lal_cloud_doc"}
  
 ## SUPPORT
 
-Le [service de support](https://cloud-support.lal.in2p3.fr){:data-proofer-ignore=""} est accessible
+Le [service de support](https://cloud-support.lal.in2p3.fr){:target="_cloud_support"}{:data-proofer-ignore=""} est accessible
 **avec un compte Cloud**. 
 Il permet de répondre aux questions techniques, mais aussi de faciliter les premiers pas. N'hésitez pas à prendre contact, même si vous êtes un débutant complet.
 

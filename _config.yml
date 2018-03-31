@@ -44,7 +44,7 @@ sass:
 
 # Collections
 collections:
-  30services:
+  services:
     output: true
     permalink: /services/:title.html
 #benchmarking:

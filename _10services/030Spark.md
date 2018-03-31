@@ -7,8 +7,8 @@ menu: Spark
 
 ## PRESENTATION
 
-[Spark](https://spark.apache.org) est un système généraliste de parallélisation de données et de calculs.
- Héritier du paradigme de programmation MapReduce exploité dans [Hadoop](https://hadoop.apache.org), il est conçu pour être capable de traiter efficacement de très grands volumes de données. 
+[Spark](http://spark.apache.org) est un système généraliste de parallélisation de données et de calculs.
+ Héritier du paradigme de programmation MapReduce exploité dans [Hadoop](http://hadoop.apache.org), il est conçu pour être capable de traiter efficacement de très grands volumes de données.
 A la différence de MapReduce, le  modèle d’exécution 
 de Spark conserve les jeux de données en mémoire (distribuée), ce qui améliore massivement les performances des workflows. 
 Les cas d’usage sont en conséquence beaucoup plus larges que ceux de MapReduce.

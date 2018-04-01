@@ -26,6 +26,7 @@ github_username: meso-upsud
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 sass:
   style: compress
 
@@ -43,13 +44,13 @@ sass:
 
 # Collections
 collections:
-  about:
+  docs_donnees:
     output: true
-    permalink: /about/:title.html
-  10services:
+    permalink: /DocsDonnees/:path.html
+  le_projet:
     output: true
-    permalink: /services/:title.html
-#benchmarking:
-#   output: true
-#   permalink: /benchmarking/:title.html
+    permalink: /projet/:name.html
+  services:
+    output: true
+    permalink: /:collection/:name.html
 

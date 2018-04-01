@@ -15,13 +15,11 @@
         {% for path in page_paths %}
           {% assign my_page = site.pages | where: "path", path | first %}
           {% if my_page.menu %}
-            {% assign my_page_collection = my_page.name | replace: '.md' '' %}
+            {% assign my_page_collection = my_page.menu | slugify: 'default' | replace: "é", "e" | replace: "è", "e" | replace: "-", "_" %}
             {% if site.[my_page_collection] %}
               <li>
                 <a class="dropdown-button" data-beloworigin="true" data-alignment="right" data-activates="{{ my_page_collection }}-menu">{{ my_page.menu }}<i class="material-icons right">arrow_drop_down</i></a>
                 <ul id="{{ my_page_collection }}-menu" class="dropdown-content">
-                  <li><a href="{{ my_page.url | relative_url }}">Organisation</a></li>
-                  <li class="divider"></li>
                   {% for collection_page in site.[my_page_collection] %}
                     {% if collection_page.menu %}
                       <li><a href="{{ collection_page.url }}">{{ collection_page.menu }}</a></li>
@@ -35,14 +33,8 @@
           {% endif %}
         {% endfor %}
       {% endif %}
-      <li>
-        <a class="dropdown-button" data-beloworigin="true" data-alignment="right" data-activates="about-menu">About<i class="material-icons right">arrow_drop_down</i></a>
-        <ul id="about-menu" class="dropdown-content">
-          <li><a href="/about/Presentation.html">Présentation</a></li>
-        </ul>
-      </li>
     </ul>
-  
+
     {% comment %}Add class "fixed" to test on a computer/large screen{% endcomment %}
     <ul id="nav-mobile" class="side-nav">
       <li><a href="{{ "/" | relative_url }}">Actualités</a></li>
@@ -76,19 +68,7 @@
           {% endif %}
         {% endfor %}
       {% endif %}
-      <li class="no-padding">
-        <ul class="collapsible collapsible-accordion">
-          <li>
-            <a class="collapsible-header">About<i class="material-icons right">arrow_drop_down</i></a>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="/about/Presentation.html">Présentation</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </li>
-    </ul>        
+    </ul>
   
     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
   </div>

@@ -1,6 +1,7 @@
 ---
-title: Présentation
+title: Les Objectifs du Mésocentre
 layout: page
+menu: Présentation
 ---
 
 Le mesocentre DataCenter@UPSud

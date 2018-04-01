@@ -2,7 +2,7 @@
 Definition of internal references for easier maintenance
 {% endcomment %}
 
-[AccesSFS]: /services/DocsDonnees/AccesSFS.html
+[AccesSFS]: /DocsDonnees/AccesSFS.html
 
 [ServCloud]: /services/cloud.html
 [ServDonnees]: /services/donnees.html

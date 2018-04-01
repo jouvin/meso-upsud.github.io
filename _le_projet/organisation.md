@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Les Services du Mésocentre
-menu: Services
+menu: Organisation
 ---
 
 {% include internal_references.md %}

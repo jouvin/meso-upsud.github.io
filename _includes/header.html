@@ -50,8 +50,6 @@
                     <a class="collapsible-header">{{ my_page.menu }}<i class="material-icons right">arrow_drop_down</i></a>
                     <div class="collapsible-body">
                       <ul>
-                        <li><a href="{{ my_page.url | relative_url }}">Organisation</a></li>
-                        <li class="divider"></li>
                         {% for collection_page in site.[my_page_collection] %}
                           {% if collection_page.menu %}
                             <li><a href="{{ collection_page.url }}">{{ collection_page.menu }}</a></li>

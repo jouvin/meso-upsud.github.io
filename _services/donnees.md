@@ -22,6 +22,6 @@ ATTENTION : aucune sauvegarde pérenne n'est proposé, cet espace ne peut donc p
 ### UTILISATION
 Pour une utilisation raisonnée de cette ressource, l'espace maximum par 
 utilisateur est 100Go. Si vous avez besoin d'un espace plus important, 
-veuillez faire une demande par [ticket](http://sos.di.u-psud.fr/){:target="_support_di"} rubrique Informatique Scientifique.
+veuillez faire une demande par [ticket][SOS-DI] rubrique Informatique Scientifique.
 
 Les moyens pour accéder à votre [espace de stockage][AccesSFS] dépendent du type d'accès.

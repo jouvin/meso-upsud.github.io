@@ -4,6 +4,8 @@ title:  Cloud
 menu: Cloud
 ---
 
+{% include internal_references.md %}
+
 Cloud@VD est la composante Paris Sud d'un cloud plus large, sous technologie
 OpenStack. A l'heure actuelle, environ 1600 coeurs sont disponibles 
 ainsi que 10To de stockage persistant. 
@@ -30,11 +32,16 @@ Pour les dernières informations, et toute la documentation, le [site du cloud](
  
 ## SUPPORT
 
-Le [service de support](https://cloud-support.lal.in2p3.fr){:target="_cloud_support"}{:data-proofer-ignore=""} est accessible
+Le [service de support][CloudSupport] est accessible
 **avec un compte Cloud**. 
-Il permet de répondre aux questions techniques, mais aussi de faciliter les premiers pas. N'hésitez pas à prendre contact, même si vous êtes un débutant complet.
+Il permet de répondre aux questions techniques, mais aussi de faciliter les premiers pas. N'hésitez pas à prendre
+contact, même si vous êtes un débutant complet.
 
 ## CONDITIONS D'UTILISATION
 
-Cloud@VD est une ressource mutualisée. Elle n'est donc pas, en toute généralité, disponible sans compensation. Le principe est le suivant : les comptes sont accordés librement pour des expérimentations de taille raisonnable. Pour une utilisation intensive ou pérenne,  il faut prévoir à moyen terme la fourniture de l'équivalent des ressources consommées en heures CPU. Cette question est examinée au moment de l'inscription, et la consommation est monitorée.  La consommation électrique et les coûts d'exploitation sont supportés par l'Université.  
+Cloud@VD est une ressource mutualisée. Elle n'est donc pas, en toute généralité, disponible sans compensation.
+Le principe est le suivant : les comptes sont accordés librement pour des expérimentations de taille raisonnable.
+Pour une utilisation intensive ou pérenne,  il faut prévoir à moyen terme la fourniture de l'équivalent des ressources
+consommées en heures CPU. Cette question est examinée au moment de l'inscription, et la consommation est monitorée.
+La consommation électrique et les coûts d'exploitation sont supportés par l'Université.
 

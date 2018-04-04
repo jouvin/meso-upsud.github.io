@@ -1,6 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+Le mesocentre DataCenter@UPSud met à disposition un ensemble de ressources informatiques et de logiciels
+dédiés à l'informatique scientifique.
+Il est destiné en priorité aux utilisateurs de Paris Sud, mais a vocation à s’ouvrir à des utilisateurs
+extérieurs, en particulier de Paris Saclay.

@@ -6,7 +6,6 @@ Definition of internal references for easier maintenance
 
 [CloudSupport]: https://cloud-support.lal.in2p3.fr
 {:target="_cloud_support"}
-{:data-proofer-ignore=""}
 
 [SOS-DI]: http://sos.di.u-psud.fr/
 {:target="_sos_di"}

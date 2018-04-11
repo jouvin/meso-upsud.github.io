@@ -4,7 +4,7 @@ title: Les Services du Mésocentre
 menu: Organisation
 ---
 
-{% include internal_references.md %}
+{% include link_definitions.md %}
 
 Le mesocentre DataCenter@UPSud est constitué de l’ensemble des ressources d’Informatique Scientifique mutualisées de l’Université Paris Sud. 
 

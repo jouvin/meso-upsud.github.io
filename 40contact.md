@@ -5,7 +5,7 @@ permalink: /contact/
 menu: Contact
 ---
 
-{% include internal_references.md %}
+{% include link_definitions.md %}
 
 Pour une demande **d'assistance technique**, veuillez utiliser la [Plateforme d'Assistance Informatique][SOS-DI] Catégorie "Informatique Scientifique".
 

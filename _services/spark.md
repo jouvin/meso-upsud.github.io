@@ -4,7 +4,7 @@ title:  Spark
 menu: Spark
 ---
 
-{% include internal_references.md %}
+{% include link_definitions.md %}
 
 ## PRESENTATION
 

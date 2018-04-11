@@ -4,7 +4,7 @@ title:  Données
 menu: Données
 ---
 
-{% include internal_references.md %}
+{% include link_definitions.md %}
 
 ## STOCKAGE
 ScienceFS est un stockage unifié simplifiant l'utilisation des données scientifiques au travers des diverses

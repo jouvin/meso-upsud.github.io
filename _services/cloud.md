@@ -4,7 +4,7 @@ title:  Cloud
 menu: Cloud
 ---
 
-{% include internal_references.md %}
+{% include link_definitions.md %}
 
 Cloud@VD est la composante Paris Sud d'un cloud plus large, sous technologie
 OpenStack. A l'heure actuelle, environ 3000 coeurs sont disponibles 

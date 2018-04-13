@@ -17,10 +17,7 @@ et administrées par le Laboratoire de l'Accélérateur Linéaire (LAL).
 * En ligne de commande 
 * A travers divers portails : Slipstream, JupyterHub, Horizon 
 
-Dans tous les cas, vous devez obtenir un compte : 
-
-* [Utilisateurs Paris Sud](http://www.informatique-scientifique.u-psud.fr/form/index){:target="_user_registration"}
-* [Autres utilisateurs](https://openstack.lal.in2p3.fr/2016/02/16/registration/){:target="_user_registration"}
+Dans tous les cas, vous devez [obtenir un compte](https://openstack.lal.in2p3.fr/2016/02/16/registration/){:target="_user_registration"}
 
 ## DOCUMENTATION
 

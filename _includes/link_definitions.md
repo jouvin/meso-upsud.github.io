@@ -16,5 +16,5 @@ Definition of internal references for easier maintenance
 [ServLogiciels]: {% link _services/logiciels.md %}
 [ServSpark]: {% link _services/spark.md %}
 
-[UPSudRegistration]: https://openstack.lal.in2p3.fr/2016/02/16/registration
+[UPSudRegistration]: https://openstack.lal.in2p3.fr/demande-de-compte-cloudvd/
 {:target="_user_registration"}

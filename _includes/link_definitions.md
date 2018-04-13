@@ -15,3 +15,6 @@ Definition of internal references for easier maintenance
 [ServHebergement]: {% link _services/hebergement.md %}
 [ServLogiciels]: {% link _services/logiciels.md %}
 [ServSpark]: {% link _services/spark.md %}
+
+[UPSudRegistration]: https://openstack.lal.in2p3.fr/2016/02/16/registration
+{:target="_user_registration"}

@@ -21,10 +21,12 @@ Les problèmes traités par Spark peuvent être de toute taille, en fonction de 
 * traitement de grands graphes de données (par exemple l’algorithme PageRank) via sa bibliothèque intégrée GraphX.
 
 ## INFRASTRUCTURE
-Le cluster Spark actuel comprend 6 machines de 18 coeurs chacune, avec au total 20TO de stockage. Le projet (ERM 2017) créer des clusters Spark à la demande, 
+Le cluster Spark actuel comprend 9 machines de 18 coeurs chacune, avec au total 35 TO de stockage HDFS. 
+
+Un projet de R&D spécifique consiste à créer des clusters Spark à la demande, 
 sous forme de machines virtuelles, à l’intérieur de Cloud@VD. Ces machines
 virtuelles seront pré-configurées de façon à être génériques et pouvoir être 
-utilisées par tous.
+utilisées par tous. Le projet a été financé en partie par le programme ERM 2017. 
 
 ## PROJETS SCIENTIFIQUES
 Plusieurs projets de R&D sont menés sur le cluster Spark.
